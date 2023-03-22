@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src:url('../fonts/Roboto-Condensed.ttf.woff') format('woff'),
+        url('../fonts/Roboto-Condensed.ttf.svg#Roboto Condensed') format('svg'),
+        url('../fonts/Roboto-Condensed.ttf.eot'),
+        url('../fonts/Roboto-Condensed.ttf.eot?#iefix') format('embedded-opentype'); 
+        font-weight: normal;
+        font-style: normal;
+}
+
+/* roboto-slab-regular */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-slab.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+       url('../fonts/roboto-slab.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-slab.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-slab.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-slab.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-slab.svg#RobotoSlab') format('svg'); /* Legacy iOS */
+}
